@@ -17,7 +17,7 @@ class DetailsActivy : AppCompatActivity() {
         val landmark = intent.getSerializableExtra("landmark") as LandMark
         binding.tvName.text = landmark.name
         binding.tvCountry.text = landmark.country
-        binding.imageView.setImageResource(landmark.image   )
+        binding.imageView.setImageResource(landmark.image)
 
 
     }
